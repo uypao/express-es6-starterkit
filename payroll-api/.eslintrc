@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-debugger": 1,
+    "no-var": 1,
+    "semi": [1, "always"],
+    "no-trailing-spaces": 1,
+    "no-unused-vars": 1,
+    "no-alert": 0,
+    "no-lone-blocks": 0,
+    "arrow-body-style": 1,
+    "no-const-assign": 1,
+    "no-duplicate-imports": 1
+  }
+}
